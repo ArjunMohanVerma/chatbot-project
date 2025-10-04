@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Gemini LLM Q&A Chatbot
 
 This is a simple Streamlit-based web application that integrates Google's Gemini Pro model via the `google.generativeai` API, using LangChain for conversation memory. The chatbot can respond to user queries in real-time and maintains a conversation history.
@@ -42,3 +43,7 @@ conda create -p env python=3.10 -y
 python -m streamlit run app.py
 streamlit run app.py
 ```
+=======
+# AI-Chatbot
+AI based chatbot using Gemini
+>>>>>>> 9a626f1bc4e726103c288ebd806b8b3dd66ddab8
