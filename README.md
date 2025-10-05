@@ -20,7 +20,7 @@ This is a simple Streamlit-based web application that integrates Google's Gemini
 1. Clone the Repository
 ```bash
 git clone <repository-url>
-cd smart-ats-resume-analyzer
+
 ```
 
 2. Create Virtual Environment

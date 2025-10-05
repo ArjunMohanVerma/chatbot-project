@@ -1,14 +1,12 @@
 import streamlit as st
 import os
-from dotenv import load_dotenv
 import google.generativeai as genai
-
+from google_api_key import google_api_key
 
 # Load environment variables
-load_dotenv()
+genai.configure(api_key=google_api_key)
 
 # Configure the Google Generative AI
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 for m in genai.list_models():
     print(m.name, m.supported_generation_methods)
